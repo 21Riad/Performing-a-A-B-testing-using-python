@@ -20,11 +20,14 @@ Refer to [NYC taxi dataset](https://data.cityofnewyork.us/Transportation/2017-Ye
 After preparing the dataset, we initiated two hypothesis.
 
 $H_0$: There is no difference in the average fare amount between customers who use credit cards and customers who use cash. (null hypothesis)
+
 $H_A$: There is a difference in the average fare amount between customers who use credit cards and customers who use cash. (alternative hypothesis)
 
 Following the formulation of the two hypotheses, we proceeded to perform a two-sample t-test, the outcomes of which are depicted in the image below.
 
-Image
+<div style="text-align:center">
+    <img src="images/pvalue_result.PNG" alt="P_value result" />
+</div>
 
 As illustrated in the image, the calculated p-value of 6.797387473030518e-12 is notably lower than the predetermined significance level of 0.05 (5%). Consequently, we reject the null hypothesis, leading us to adopt the alternative hypothesis.
 
